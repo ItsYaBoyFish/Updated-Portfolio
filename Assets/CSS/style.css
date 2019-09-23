@@ -86,7 +86,7 @@ body {
 @media screen and (max-width: 390px) {
   .background {
     background-position: center;
-    height: 800px;
+    overflow: hidden;
   }
   
   .intro {
