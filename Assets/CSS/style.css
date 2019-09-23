@@ -84,7 +84,7 @@ body {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 420px) {
   .background {
     background-position: center;
   }
@@ -99,7 +99,7 @@ body {
   }
 
   .name {
-    color: rgb(15, 158, 206);
+    color: rgb(255, 255, 255);
     font-size: 30px;
   }
 
@@ -108,7 +108,7 @@ body {
   }
 
   .seperator {
-    color: rgb(31, 58, 63);
+    color: rgb(255, 255, 255);
   }
 
   .projectsBtn {
