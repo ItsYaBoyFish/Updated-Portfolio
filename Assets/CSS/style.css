@@ -87,7 +87,6 @@ body {
 @media screen and (max-width: 390px) {
   .background {
     background-position: center;
-    background-size: 98vh;
   }
   
   .intro {
