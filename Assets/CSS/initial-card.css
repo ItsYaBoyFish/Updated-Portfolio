@@ -1,0 +1,42 @@
+.card {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: #FFF;
+  height: 450px;
+  width: 315px;
+  box-shadow: 2px 2px 2px 2px rgb(15, 158, 206);
+  text-align: center;
+}
+
+.card-image {
+  display: inline-block;
+  margin-top: 7.5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-content {
+  font-size: 14px;
+}
+
+.card-content h3 {
+  float: left;
+  margin-left: 5%;
+  font-size: 20px;
+  margin-bottom: .3em;
+}
+
+.card-content p {
+  text-align: left;
+  margin-left: 5%;
+  clear: both;
+}
+
+.menu-icon {
+  float: right;
+  margin-right: 5%;
+  color: rgb(15, 158, 206);
+  cursor: pointer;
+}

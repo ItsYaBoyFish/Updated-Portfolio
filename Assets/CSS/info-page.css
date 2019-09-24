@@ -1,0 +1,45 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  background-color:rgb(15, 158, 206); 
+}
+
+.header h1 {
+  float: left;
+  color: #fff;
+  margin-left: 5%;
+  padding-top: .5%;
+}
+
+.header-container {
+  float: right;
+  display: inline-flex;
+}
+
+.phone {
+  display: inline-flex;
+  padding-right: 3em;
+  margin-top: 1em;
+  color: #fff;
+}
+
+.phone label {
+  margin-right: .7em;
+}
+
+.email {
+  display: inline-flex;
+  padding-right: 3em;
+  margin-top: .9em;
+  color: #fff;
+}
+
+.email label {
+  margin-right: .7em;
+}
+

@@ -72,7 +72,9 @@ body {
 .icon {
   margin-top: 1em;
   color: white;
+  text-align: center;
 }
+
 
 @media screen and (max-width: 1920px) {
   .mobileIntro {
@@ -116,4 +118,20 @@ body {
     background-color: rgb(31, 58, 63);
     color: rgb(15, 158, 206);
   }
+
+  /* Start of the Info Page Adjustments */
+
+  .grid-container {
+    display: block;
+    text-align: center;
+  }
+
+  .card {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* End of Info Page Adjustments */
+
 }

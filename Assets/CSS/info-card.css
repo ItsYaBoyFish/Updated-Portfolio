@@ -1,0 +1,51 @@
+.back-arrow {
+  clear: both;
+  color: blue;
+  display: inline-flex;
+  float: left;
+  padding-left: 1em;
+  padding-top: 1em;
+  cursor: pointer;
+} 
+
+.title {
+float: right;
+margin-right: 1em;
+margin-top: .5em;
+}
+
+.technologiesUsed {
+  clear: both;
+}
+
+.technologiesUsed h5 {
+  padding-top: 2em;
+}
+
+.infoPressed ol li {
+  position: relative;
+  display: inline-flex;
+  margin-top: .5em; 
+  margin-left: 1em;
+}
+
+.description {
+  margin-top: 1em;
+  display: inline-block;
+  width: 90%;
+}
+
+.infoFooter-icon {
+  color: black;
+  margin-top: 1em;
+}
+
+/* .infoFooter {
+  color: black;
+  background-color: black;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+} */
