@@ -100,6 +100,9 @@
     margin-left: auto;
   }
 
+  .brand {
+    cursor: pointer;
+  }
   /* End of Info Page Adjustments */
 
 }

@@ -4,7 +4,6 @@ window.onload = hideInfoPage();
 
 // Global Variables Needed for operations
 const grid = $('#grid-container');
-const viewProjects = $('#viewProjects');
 const test = $('#test');
 const menuIcon = $('#menu-icon');
 // Data Object for creating dynamic content. 
@@ -38,18 +37,19 @@ var projects = [
 //////////////////////////////////////////
 //////////// EVENT LISTENERS ////////////
 ////////////////////////////////////////
-viewProjects.on('click', function(e) {
+
+$(document).on('click', '#viewProjects', function(e) {
   e.preventDefault();
   hideLandingPage();
   loadInfoPage();
   loadInitialCardInfo();
-});
-
-test.on('click', function(e) {
-  e.preventDefault();
-  loadLandingPage();
-  hideInfoPage();
 })
+
+// test.on('click', function(e) {
+//   e.preventDefault();
+//   loadLandingPage();
+//   hideInfoPage();
+// })
 
 $(document).on('click', '.menu-icon', function(e) {
   e.preventDefault();
