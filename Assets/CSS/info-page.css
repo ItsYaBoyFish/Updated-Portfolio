@@ -43,3 +43,63 @@
   margin-right: .7em;
 }
 
+
+@media screen and (max-width: 1920px) {
+  .mobileIntro {
+    display: none;
+  }
+
+  .intro {
+    display: initial;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .background {
+    background-position: center;
+  }
+  
+  .intro {
+    display: none;
+  }
+
+  .mobileIntro {
+    display: initial;
+    width: 100%;
+  }
+
+  .name {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+  }
+
+  .mobileIntro h1 {
+    font-size: 20px;
+  }
+
+  .seperator {
+    color: rgb(255, 255, 255);
+  }
+
+  .projectsBtn {
+    margin-top: 1em;
+    background-color: rgb(31, 58, 63);
+    color: rgb(15, 158, 206);
+  }
+
+  /* Start of the Info Page Adjustments */
+
+  .grid-container {
+    display: block;
+    text-align: center;
+  }
+
+  .card {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* End of Info Page Adjustments */
+
+}

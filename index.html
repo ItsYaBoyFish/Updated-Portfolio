@@ -19,9 +19,9 @@
 <body>
 
   <!-- Landing Page HTML -->
-
-  <!-- <div class="background"></div>
-  <div class="intro">
+<div class="landingPage" id='landingPage'>
+  <div class="background" id='background'></div>
+  <div class="intro" id='intro'>
     <h1>Hello, I am <span class='name'>Austin Graves</span> and I<br> am a Web Developer <span class='seperator'>|</span> Designer</h1>
     <button class='projectsBtn' id='viewProjects'>View My Projects</button>
   </div>
@@ -32,8 +32,8 @@
   <div class="footer">
     <a href="https://github.com/ItsYaBoyFish"><i class="icon fab fa-github fa-2x"></i></a>
     <a href="https://www.linkedin.com/in/austin-graves-192708170/"><i class="icon fab fa-linkedin fa-2x"></i></a>
-  </div> -->
-
+  </div>
+</div>
   <!-- End of Landing Page HTML -->
 
   <!-- ===================================================================== -->
@@ -42,7 +42,7 @@
   <!-- ===================================================================== -->
 
   <!-- Start of the Info Page -->
-
+<div class="infoPage" id='infoPage'>
   <div class="header infoPage">
     <h1>Projects</h1>
     <div class="header-container">
@@ -57,20 +57,24 @@
     </div>
   </div>
 
-  <div id='grid-container' class='grid-container'> 
+  <div id='grid-container' class='grid-container'>
 
-    <!-- <div class="infoPage card">
+<!-- This is the hard coded portion for me to base my dynamic code off of. -->
+
+<!-- <div class="infoPage card">
         <img class='img' src="https://via.placeholder.com/300" alt="image holder">
       <div class="card-content">
         <h3>Project Title</h3>
-        <i class="menu-icon fas fa-ellipsis-h fa-2x"></i>
+        <i class="menu-icon fas fa-ellipsis-h fa-2x" id='menu-icon'></i>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi necessitatibus eos. Ut, provident!</p>
       </div>
     </div>  -->
 
 
-  </div>
-      <!-- <div class="infoPressed" style="display: none;">
+<!-- I was testing some additional features here. I will come back to this. -->
+
+
+  <!-- <div class="infoPressed card">
         <div class="menu">
           <i id='back-arrow' class="back-arrow fas fa-arrow-left fa-large"></i>
           <h3 class='title'>Project Title</h3>
@@ -86,16 +90,15 @@
         <div class="description">
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis similique dolor autem dignissimos in dolorum et vel quod eaque quam eveniet</p>
         </div>
-      </div>
-      <div class="infoFooter" style="display: none;">
+      <div class="infoFooter">
         <a href="https://github.com/ItsYaBoyFish"><i class="infoFooter-icon fab fa-github fa-2x"></i></a>
         <a href="https://www.linkedin.com/in/austin-graves-192708170/"><i class="infoFooter-icon fab fa-linkedin fa-2x"></i></a>
-      </div> -->
-
+      </div>  -->
+      
+</div>
  
 
 
-  
   <script src='Assets/JS/app.js'></script>
 </body>
 </html>

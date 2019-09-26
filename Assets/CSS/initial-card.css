@@ -40,3 +40,9 @@
   color: rgb(15, 158, 206);
   cursor: pointer;
 }
+
+.img {
+  height: 300px;
+  width: 300px;
+  margin-top: 7.5px;
+}
