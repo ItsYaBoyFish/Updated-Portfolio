@@ -31,6 +31,12 @@ var projects = [
     Project_Description: 'This was a fun homework assignment. We had to create a timed game that tracked score for correct answers as well as tracked the number of incorrect answers.',
     Project_Image: 'Assets/Images/TriviaGame.png',
     Project_Github_Link: ''
+  },
+  {
+    Project_Title: 'LIRI BOT',
+    Project_Description: 'This is a simple application allowing users to search for music through spotify, movies, concerts etc..',
+    Project_Image: 'Assets/Images/LIRIBot.png',
+    Project_Github_Link: ''
   }
 ]
 
