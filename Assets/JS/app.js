@@ -18,25 +18,31 @@ var projects = [
     Project_Title: 'Giftastic',
     Project_Description: 'This project, we were asked to utilize the giphy api. Give the users the ability to search the api by premade buttons or make there own.',
     Project_Image: 'Assets/Images/giftastic.png',
-    Project_Github_Link: ''
+    Project_Github_Link: 'https://github.com/ItsYaBoyFish/GifTastic'
   },
   {
     Project_Title: 'LifeStyle',
     Project_Description: 'This was our first project. This is an event searcher using the ticketmaster and zomato api. This application also utilizes emailJS for further user interaction.',
     Project_Image: 'Assets/Images/LifeStyle.png',
-    Project_Github_Link: ''
+    Project_Github_Link: 'https://github.com/ItsYaBoyFish/LifeStyle-Project-1'
   },
   {
     Project_Title: 'Trivia Game',
     Project_Description: 'This was a fun homework assignment. We had to create a timed game that tracked score for correct answers as well as tracked the number of incorrect answers.',
     Project_Image: 'Assets/Images/TriviaGame.png',
-    Project_Github_Link: ''
+    Project_Github_Link: 'https://github.com/ItsYaBoyFish/TriviaGame'
   },
   {
     Project_Title: 'LIRI BOT',
     Project_Description: 'This is a simple application allowing users to search for music through spotify, movies, concerts etc..',
     Project_Image: 'Assets/Images/LIRIBot.png',
-    Project_Github_Link: ''
+    Project_Github_Link: 'https://github.com/ItsYaBoyFish/LIRI-BOT'
+  },
+  {
+    Project_Title: 'Project 2 - Lipin',
+    Project_Description: 'This is a shopping list application with Authentication, Handlebars, Node.js, Express, MySql, and much More.',
+    Project_Image: 'Assets/Images/Lipin.png',
+    Project_Github_Link: 'https://github.com/ItsYaBoyFish/Project-2'
   }
 ]
 
@@ -124,8 +130,9 @@ function loadInitialCardInfo() {
   cardContentDiv.attr('class', 'card-content');
 
   // Now you need to create the internal portions of the content div above. 
-  var title = $('<h3>');
+  var title = $('<a>');
   title.text(projects[i].Project_Title);
+  title.attr('href', projects[i].Project_Github_Link);
   var icon = $('<i>');
   var text = $('<p>');
   // Now add the appropriate classes to these.
