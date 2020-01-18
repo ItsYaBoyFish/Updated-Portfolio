@@ -43,6 +43,12 @@ var projects = [
     Project_Description: 'This is a shopping list application with Authentication, Handlebars, Node.js, Express, MySql, and much More.',
     Project_Image: 'Assets/Images/Lipin.png',
     Project_Github_Link: 'https://github.com/ItsYaBoyFish/Project-2'
+  },
+  {
+    Project_Title: 'Project 3 - Raduno',
+    Project_Description: 'This is a potluck/event management tool. Built using React && MySQL',
+    Project_Image: 'Assets/Images/Raduno.png',
+    Project_Github_Link: 'https://pedantic-swirles-516f15.netlify.com/'
   }
 ]
 
